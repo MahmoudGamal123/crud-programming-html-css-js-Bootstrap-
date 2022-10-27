@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="head text-center my-3">CRUD system</h1>
+    <div class="container shadow w-75 my-5 py-5">
+        <label for="" class="my-3">productName</label>
+        <input type="text" class="form-control" id="productName">
+        <label for="" class="my-3">productPrice</label>
+        <input type="number" class="form-control" id="productPrice">
+        <label for="" class="my-3">productCategory</label>
+        <input type="text" class="form-control" id="productCategory">
+        <label for="" class="my-3">productDesc</label>
+        <textarea class="form-control" id="productDesc"></textarea>
+        <div class="btn m-auto">
+            <button class="btn btn-info my-3 " id="addProduct">Add Product</button>
+        <button class="btn btn-info my-3 " id="clearProduct">Clear Product</button>
+        </div>  
+        
+    </div>
+    <input onkeyup="search(this.value)" type="text" class="form-control w-50 container my-4" id="searchInput" placeholder="Search....">
+    
+    <table class="table table-dark text-success w-75 table-striped container">
+        <thead class="text-white">
+            <tr>
+              <th scope="col">index:</th>
+              <th scope="col">Name:</th>
+              <th scope="col">Price:</th>
+              <th scope="col">Category:</th>
+              <th scope="col">Desc:</th>
+              <th scope="col">Update:</th>
+              <th scope="col">Delete:</th>
+            </tr>
+          </thead>
+
+          <tbody id="tbody">
+           
+          </tbody>
+      </table>
+
+    
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

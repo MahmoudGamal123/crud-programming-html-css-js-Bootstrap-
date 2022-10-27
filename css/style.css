@@ -1,0 +1,17 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("../images/pexels-pixabay-326311\ .jpg.jpg");
+    background-position: center center;
+    background-size: cover; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: #198754;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px 0px;
+}
